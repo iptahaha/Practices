@@ -1,0 +1,94 @@
+$mainColor: #83af6b;
+$subColor: #f3636b;
+$disabledColor: #e9efe9;
+
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #161623;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.calendar {
+  width: 800px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  box-shadow: 6px 10px 48px 14px rgba(34, 60, 80, 0.25);
+
+  .calendar-title {
+    background-color: #538856;
+    padding: 20px 0 10px;
+
+    .calendar-title__month-name {
+      letter-spacing: 5px;
+      font-weight: 200;
+      font-size: 60px;
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .calendar-title__week-list {
+      display: flex;
+
+      .calendar-title__week-item {
+        width: 100%;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 200;
+        list-style: none;
+      }
+    }
+  }
+
+  .calendar__month {
+    display: flex;
+    flex-direction: column;
+
+    .calendar__week {
+      display: inline-flex;
+
+      .calendar__day-container {
+        width: 50px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 25px;
+        transition: all 0.1s ease-in;
+
+
+        &:hover {
+          background-color: #abe08b;
+        }
+
+        &--holiday {
+          background-color: #c4e5a3;
+          color: $subColor;
+        }
+
+        &--blocked {
+          background-color: $disabledColor
+          disabled;
+        }
+
+        .calendar__day {
+          opacity: 0;
+          position: absolute;
+
+          &--blocked {
+            opacity: 0;
+            background-color: $disabledColor
+            disabled;
+          }
+        }
+      }
+    }
+  }
+}
