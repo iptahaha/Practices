@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1640313251531" clover="3.2.0">
+  <project timestamp="1640313251531" name="All files">
+    <metrics statements="83" coveredstatements="83" conditionals="75" coveredconditionals="72" methods="7" coveredmethods="7" elements="165" coveredelements="162" complexity="0" loc="83" ncloc="83" packages="2" files="7" classes="7"/>
+    <package name="01pr_Block">
+      <metrics statements="48" coveredstatements="48" conditionals="41" coveredconditionals="38" methods="4" coveredmethods="4"/>
+      <file name="checkNumber.js" path="D:\DevEducation\PRACTICES\pr_05\src\01pr_Block\checkNumber.js">
+        <metrics statements="18" coveredstatements="18" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="7" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+      <file name="getNumericalSum.js" path="D:\DevEducation\PRACTICES\pr_05\src\01pr_Block\getNumericalSum.js">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="cond" truecount="5" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="isPalindrome.js" path="D:\DevEducation\PRACTICES\pr_05\src\01pr_Block\isPalindrome.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="60" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="isStringValid.js" path="D:\DevEducation\PRACTICES\pr_05\src\01pr_Block\isStringValid.js">
+        <metrics statements="18" coveredstatements="18" conditionals="22" coveredconditionals="19" methods="1" coveredmethods="1"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="13" count="13" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="11" type="cond" truecount="6" falsecount="0"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="44" type="stmt"/>
+        <line num="26" count="44" type="cond" truecount="2" falsecount="3"/>
+        <line num="27" count="44" type="stmt"/>
+        <line num="30" count="44" type="stmt"/>
+        <line num="31" count="308" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="36" count="7" type="cond" truecount="5" falsecount="0"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="02pr_Block">
+      <metrics statements="35" coveredstatements="35" conditionals="34" coveredconditionals="34" methods="3" coveredmethods="3"/>
+      <file name="breakingCycleFunc.js" path="D:\DevEducation\PRACTICES\pr_05\src\02pr_Block\breakingCycleFunc.js">
+        <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="6" count="316" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="16" type="stmt"/>
+        <line num="16" count="316" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+      <file name="isAnagram.js" path="D:\DevEducation\PRACTICES\pr_05\src\02pr_Block\isAnagram.js">
+        <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="6" count="9" type="cond" truecount="6" falsecount="0"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="typingWordsFunc.js" path="D:\DevEducation\PRACTICES\pr_05\src\02pr_Block\typingWordsFunc.js">
+        <metrics statements="15" coveredstatements="15" conditionals="18" coveredconditionals="18" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
